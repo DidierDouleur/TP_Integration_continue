@@ -53,7 +53,6 @@ public class App {
 				line = br.readLine();
 				aux = line.split(cvsSplitBy);
 				addToTable(tableName, aux);
-				System.out.println(i++);
 			}
 
 		} catch (Exception e) {
